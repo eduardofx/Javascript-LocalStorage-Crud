@@ -107,17 +107,17 @@ function validation(){
     var errors = "";
     document.getElementById("errors").style.display = "none";
     if(desc === ""){
-        errors += '<p>Fill out description</p>';
+        errors += '<p>Preencha a Descrição</p>';
     }
     if(amount === ""){
-        errors += '<p>Fill out a quantity</p>';
+        errors += '<p>Preencha uma Quantidade</p>';
     }else if(amount != parseInt(amount)){
-        errors += '<p>Fill out a valid amount</p>';
+        errors += '<p>Preeencha um valor válido</p>';
     }
     if(value === ""){
-        errors += '<p>Fill out a value</p>';
+        errors += '<p>Preencha o valor</p>';
     }else if(value != parseFloat(value)){
-        errors += '<p>Fill out a valid value</p>';
+        errors += '<p>Preencha um valor válido</p>';
     }
 
     if(errors != ""){
