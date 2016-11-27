@@ -1,8 +1,8 @@
 
 var list = [
-    {"desc":"rice","amount":"11","value":"5.40"},
-    {"desc":"sasasas","amount":"12","value":"1.99"},
-    {"desc":"meat","amount":"1","value":"15.00"}
+    {"desc":"macarrão","amount":"11","value":"5.40"},
+    {"desc":"carne","amount":"12","value":"1.99"},
+    {"desc":"tomate","amount":"13","value":"15.00"}
 ];
 
 function getTotal(list){
